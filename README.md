@@ -1,6 +1,6 @@
 # C to Promela Converter
 
-A simple web application that converts C code into Promela code using OpenAI's API.
+A simple web application that converts C code into Promela code using OpenRouter's API.
 
 ---
 
