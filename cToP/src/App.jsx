@@ -2,7 +2,15 @@ import React, { useState, useRef } from "react";
 import { Loader2 } from "lucide-react";
 
 const App = () => {
-  const [cCode, setCCode] = useState("");
+  const [cCode, setCCode] = useState(`//Default Code
+    
+#include <stdio.h>
+int main() {
+   // printf() displays the string inside quotation
+   printf("Hello, World!");
+   return 0;
+}
+`);
   const [promelaCode, setPromelaCode] = useState("");
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
