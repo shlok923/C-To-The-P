@@ -29,8 +29,8 @@ app.post("/convert", async (req, res) => {
         method: "POST",
         headers: {
           Authorization: `Bearer ${process.env.OPENROUTER_API_KEY}`,
-          //'HTTP-Referer': 'https://your-frontend-site.com', // Optional for OpenRouter site rankings
-          //'X-Title': 'C to Promela Converter',              // Optional
+          //'HTTP-Referer': 'https://your-frontend-site.com', 
+          //'X-Title': 'C to Promela Converter',              
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
